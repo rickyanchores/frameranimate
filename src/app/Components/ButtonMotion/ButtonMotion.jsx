@@ -6,7 +6,7 @@ const ButtonMotion = () => {
     <motion.button 
     whileHover={{scale: 1.1}}
     whileTap={{scale: 0.9}}
-    className="p-4 bg-red-800">
+    className="p-4 bg-red-800 w-[200px]">
       Click me
     </motion.button>
   )

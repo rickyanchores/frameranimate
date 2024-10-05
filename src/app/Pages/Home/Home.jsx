@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const Home = () => {
   return (
-    <div className="Home min-h-screen grid justify-center items-center">
+    <div className="Home min-h-screen w-screen grid justify-center items-center" id="/">
         <motion.div 
       initial={{opacity: 0, y:-50}}
       animate={{opacity: 1, y: 0}}
