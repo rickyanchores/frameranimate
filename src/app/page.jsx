@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact/Contact";
 import Nav from "./Components/Nav/Nav";
 export default function App() {
   return (
-    <div className="App min-h-screen grid justify-center items-center ">
+    <div className="App n min-h-screen grid justify-center items-center ">
       <Nav />
       <Home />
       <ButtonMotion />
