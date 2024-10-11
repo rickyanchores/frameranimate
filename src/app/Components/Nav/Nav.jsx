@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <div className="Nav bg-slate-600 text-white flex justify-around items-center">
+    <div className="Nav bg-slate-600 text-white flex justify-around items-center p-4">
         <logo className="logo">Nav</logo>
         <ul className="navLinks  flex justify-around items-center gap-4">
           <Link href="/#Menu" className='hover:text-red-900'>Menu</Link>
