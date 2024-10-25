@@ -7,6 +7,7 @@ import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Nav from "./Components/Nav/Nav";
 import PageWrapper from "./pageWrapper";
+import Gallery from "./Pages/Gallery/Gallery";
 export default function App() {
   return (
     <div className="App n min-h-screen grid justify-center items-center ">
@@ -15,6 +16,7 @@ export default function App() {
         <Home />
         <ButtonMotion />
         <About />
+        <Gallery />
         <Contact />
       </PageWrapper>
     </div>
